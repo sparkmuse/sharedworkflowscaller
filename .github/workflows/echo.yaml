@@ -1,0 +1,9 @@
+name: Echo from caller
+on:
+  workflow_dispatch: 
+
+
+jobs:
+  reusable_workflow_job:
+    uses: sparkmuse/sharedworkflows/.github/workflows/echo.yaml
+
